@@ -11,10 +11,9 @@ import static io.qameta.allure.Allure.step;
 public class FirstTest {
 
     @Test
-
     void fillPracticeFormTests() {
         step("Открываем страницу с формами", () -> {
-            open("/automation-practice-form");
+            open("https://demoqa.com/automation-practice-form");
         });
         //fill form
         step("Вводим имя", () -> {
