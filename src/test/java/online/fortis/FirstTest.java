@@ -14,7 +14,7 @@ public class FirstTest {
 
     void fillPracticeFormTests() {
         step("Открываем страницу с формами", () -> {
-            open("https://demoqa.com/automation-practice-form");
+            open("/automation-practice-form");
         });
         //fill form
         step("Вводим имя", () -> {
