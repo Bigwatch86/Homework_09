@@ -13,7 +13,7 @@ public class FirstTest extends TestBase{
     @Test
     public void fillPracticeFormTests() {
         step("Открываем страницу с формами", () -> {
-            open("https://demoqa.com/automation-practice-form");
+            open("/automation-practice-form");
         });
         //fill form
         step("Вводим имя", () -> {
