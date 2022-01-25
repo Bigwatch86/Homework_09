@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
-public class FirstTest {
+public class FirstTest extends TestBase{
 
     @Test
     public void fillPracticeFormTests() {
